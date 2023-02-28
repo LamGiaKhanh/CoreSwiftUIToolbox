@@ -17,6 +17,11 @@ public struct ___VARIABLE_name:identifier___NavigatorView: View {
     }
     
     public var body: some View {
-        
+        //        - Example:
+        //        ThisScreen(viewModel: navigator.initialViewModel)
+        //            .id(navigator.rootViewId)
+        //            .navigation(model: $navigator.detailViewModel) {
+        //                DetailScreen(viewModel: $0)
+        //            }
     }
 }

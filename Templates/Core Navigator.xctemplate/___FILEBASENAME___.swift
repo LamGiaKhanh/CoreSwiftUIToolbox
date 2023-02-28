@@ -14,7 +14,7 @@ public enum ___VARIABLE_name:identifier___Step: Step {
 }
 
 public protocol ___VARIABLE_name:identifier___Navigator: NavigatorModel, Stepper {
-    // Define viewModel/child navigators
+    // Define ViewModel/Navigators
     
 }
 
@@ -30,12 +30,21 @@ public class ___VARIABLE_name:identifier___NavigatorImpl: ___VARIABLE_name:ident
     
     // MARK: - Initialization
     public init() {
-        // contribute() here
+        // - Example:
+        // contribute(InitialViewModel)
     }
     
     // MARK: - Methods
     
     public func go(to step: Step) {
         guard let step = step as? ___VARIABLE_name:identifier___Step else { return }
+        
+//        - Example:
+//        switch step {
+//        case .fakeDetailStep:
+//            detailNavigator = resolve(DetailNavigator.self, argument: some_id)
+//            contribute(detailNavigator)
+//            return
+//        }
     }
 }
