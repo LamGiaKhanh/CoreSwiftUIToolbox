@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Common</key>
+	<dict/>
+	<key>Development</key>
+	<dict>
+		<key>BaseApiUrl</key>
+		<string>https://ecommerce-api.lexor.globalalliances.com.vn/v1</string>
+	</dict>
+	<key>Staging</key>
+	<dict>
+		<key>BaseApiUrl</key>
+		<string>https://ecommerce-api.lexor.globalalliances.com.vn/v1</string>
+	</dict>
+	<key>Production</key>
+	<dict>
+		<key>BaseApiUrl</key>
+		<string>https://ecommerce-api.lexor.globalalliances.com.vn/v1</string>
+	</dict>
+</dict>
+</plist>
