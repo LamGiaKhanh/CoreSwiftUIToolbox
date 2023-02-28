@@ -5,8 +5,8 @@
 //  ___COPYRIGHT___
 //
 
+import Foundation
 import Combine
-import SwiftUI
 import Core
 
 public enum ___VARIABLE_name:identifier___Step: Step {
