@@ -8,11 +8,7 @@
 import Combine
 import Core
 
-public protocol ___VARIABLE_name:identifier___ViewModel {
-    
-}
-
-public class ___VARIABLE_name:identifier___ViewModelImpl: ___VARIABLE_name:identifier___ViewModel, ObservableObject {
+public class ___VARIABLE_name:identifier___ViewModel: StepperViewModel & StateViewModel, ObservableObject{
     
     // MARK: - Stored Properties
     
@@ -27,8 +23,7 @@ public class ___VARIABLE_name:identifier___ViewModelImpl: ___VARIABLE_name:ident
     @Published public var isLoading: Bool = false
     
     // Toast
-    public var toastMessage: String?
-    @Published public var shouldShowToast: Bool = false
+    @Published public var toastMessage: String?
     
     // MARK: - Initialization
     public init() {}

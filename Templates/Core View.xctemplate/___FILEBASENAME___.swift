@@ -8,7 +8,7 @@
 import SwiftUI
 import Core
 
-public struct ___VARIABLE_name:identifier___View: View {
+public struct ___VARIABLE_name:identifier___Screen: View {
     
     // MARK: - Stored Properties
     @Store public var viewModel: ___VARIABLE_name:identifier___ViewModel
@@ -20,6 +20,10 @@ public struct ___VARIABLE_name:identifier___View: View {
     
     // MARK: - Views
     public var body: some View {
-        
+        VStack {
+            
+        }
+        .toastify(message: $viewModel.toastMessage)
+        .unstable(state: viewModel.state, isLoading: viewModel.isLoading)
     }
 }
