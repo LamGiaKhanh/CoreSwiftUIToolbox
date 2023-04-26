@@ -3,7 +3,7 @@
 ### How to use Templates
 
 - Copy templates in Templates folder
-- Go to Finder -> CMD+Shift+G (Go to File) -> Paste path /Users/user_name/Library/Developer/Xcode/Templates/File Templates/Custom Templates
+- Go to Finder -> CMD+Shift+G (Go to File) -> Paste path ~/Library/Developer/Xcode/Templates/File Templates/Custom Templates
 - Paste templates into Custom Templates folder
 - Open/Restart Xcode
 - Right click on Directory Project -> New File... (or File > New > File.. on Xcode toolbar)
